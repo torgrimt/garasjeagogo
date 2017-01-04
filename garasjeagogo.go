@@ -1,4 +1,4 @@
-package garasjeagogo
+package main
 
 import (
 	// "fmt"

@@ -1,0 +1,15 @@
+{
+    "Mqtt": {
+        "Broker": "tcp://localhost:1883",
+        "ClientId": "garasjeagogo",
+        "Username": "mquser",
+        "Password": "mquser",
+        "Events": {
+            "PublishTopic": "garasjeagogo/events/",
+            "PublishPayload": "{{.Method}}",
+            "SubscribeTopic": "garasjeagogo/events"
+        }
+
+}
+}
+
